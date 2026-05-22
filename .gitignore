@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual envs
+venv/
+.env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+
+# WandB
+wandb/
+
+# Logs
+logs/
+*.log
+
+# nnUNet
+data/nnUNet_raw/
+data/nnUNet_preprocessed/
+data/nnUNet_results/
+
+# Large medical imaging files
+*.nii
+*.nii.gz
+
+# Model checkpoints
+checkpoints/
+*.pth
+*.pt
+
+# Experiment outputs
+outputs/
+runs/
+cache/
+tmp/
+
+# Generated artifacts
+artifacts/predictions/
+artifacts/visualizations/

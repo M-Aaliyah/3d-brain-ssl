@@ -1,0 +1,26 @@
+name: 3d-brain-ssl-env
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - nibabel
+  - simpleitk
+  - pyyaml
+  - tqdm
+  - matplotlib
+  - openpyxl
+  - pytorch
+  - torchvision
+  - pytorch-cuda=12.1
+  - pip:
+      - nnunetv2
+      - wandb
+      - batchgenerators
+      - connected-components-3d
